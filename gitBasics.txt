@@ -1,0 +1,27 @@
+
+new Repository:
+
+cloning:
+git clone (urlOfRemoteRepository)
+
+
+add -> commit -> push:
+git add .
+git commit -m "message here"
+git push 
+
+fetch -> pull:(you don't have to fetch all the time)
+git fetch (branchName)
+git pull   |git pull origin master 
+
+
+merging:
+git merge  
+
+branching and operations on branches:
+git branch :lists all branches in you repository
+git checkout -b _branchName__ :makes and switches to new branch
+git checkout __existingBranch__ : switches to existing branch 
+git checkout -d __existingBranch__  :deletes an existing branch 
+
+
